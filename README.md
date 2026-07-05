@@ -9,7 +9,7 @@
 | 5 | LSASS Credential Access | T1003 | Critical | EID 10 | ✅ Live |
 ## Architecture
 
-![Lab Architecture](screenshots/.png)
+![Lab Architecture](screenshots/siem_lab_architecture.png)
 
 **Host:** HP Victus — VirtualBox hypervisor  
 **Target VM:** Windows 11 — Sysmon v15.21 + Splunk Universal Forwarder  
