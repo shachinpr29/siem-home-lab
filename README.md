@@ -7,3 +7,12 @@
 | 3 | Suspicious PowerShell | T1059.001 | High | EID 1 | ✅ Live |
 | 4 | Process Injection | T1055 | High | EID 8 | ✅ Live |
 | 5 | LSASS Credential Access | T1003 | Critical | EID 10 | ✅ Live |
+## Architecture
+
+![Lab Architecture](screenshots/.png)
+
+**Host:** HP Victus — VirtualBox hypervisor  
+**Target VM:** Windows 11 — Sysmon v15.21 + Splunk Universal Forwarder  
+**SIEM VM:** Ubuntu 24 — Splunk Free 10.4  
+**Transport:** Sysmon logs → UF → TCP 9997 → Splunk indexer  
+**Index:** main · 9,000+ events collected
