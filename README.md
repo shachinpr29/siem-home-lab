@@ -7,6 +7,11 @@
 | 3 | Suspicious PowerShell | T1059.001 | High | EID 1 | ✅ Live |
 | 4 | Process Injection | T1055 | High | EID 8 | ✅ Live |
 | 5 | LSASS Credential Access | T1003 | Critical | EID 10 | ✅ Live |
+
+## ATT&CK Coverage
+
+![ATT&CK Navigator](screenshots/attck_coverage.png)
+
 ## Architecture
 
 ![Lab Architecture](screenshots/siem_lab_architecture.png)
